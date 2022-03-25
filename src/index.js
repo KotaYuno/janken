@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {PageStatusProvider} from './components/providers/PageStatusProvider'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PageStatusProvider>
+      <App />
+    </PageStatusProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

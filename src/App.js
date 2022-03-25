@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { useContext, useEffect } from 'react';
+import HandDiv from './components/Handdiv';
+import Message from './components/Message';
+import { PageStatusContext } from './components/providers/PageStatusProvider';
 
 function App() {
+  const Status = useContext(PageStatusContext)
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Online Janken</h1>
       </header>
+      <body>
+        <Message context = {"手を選んでください"}></Message>
+        <HandDiv status = {Status}></HandDiv>
+      </body>
     </div>
   );
 }
