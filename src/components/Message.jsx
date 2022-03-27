@@ -14,9 +14,15 @@ const Message = () => {
         return <p id = "status">じゃんけん</p>
     } else if (Status === 4) {
         return <p id = "status">ポン！</p>
-    } else if (Status >= 5) {
-        return <p id = "status">winner : you</p>
-    }
+    } else if (Status === 5) {
+        return <p id = "status">Draw!</p>
+    } else if (Status === 6) {
+        return <p id = "status">you win!</p>
+    } else if (Status === 7) {
+        return <p id = "status">you loser</p>
+    } else {
+        return <p>error</p>
+    } 
 }
    
 

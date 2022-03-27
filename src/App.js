@@ -3,6 +3,7 @@ import './App.css';
 import { useContext, useEffect } from 'react';
 import HandDiv from './components/Handdiv';
 import Message from './components/Message';
+import ReturnButton from './components/ReturnButton';
 import { PageStatusContext } from './components/providers/PageStatusProvider';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <body>
         <Message context = {"手を選んでください"}></Message>
         <HandDiv status = {Status}></HandDiv>
+        <ReturnButton></ReturnButton>
       </body>
     </div>
   );
