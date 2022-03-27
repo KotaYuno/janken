@@ -1,5 +1,6 @@
 {
   "name": "janken",
+  "homepage": "https://KotaYuno.github.io/janken",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
