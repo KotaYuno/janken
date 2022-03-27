@@ -8,4 +8,6 @@ react
 ## 今後
 オンライン上で遠くの人とじゃんけんができるように現在バックエンドをGOで開発中
 
-[1]: https://kotayuno.github.io/janken/ "Let`s play!"
+
+
+[Let`s play!](https://kotayuno.github.io/janken/)
