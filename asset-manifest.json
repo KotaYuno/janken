@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/janken/static/css/main.fc1caea6.css",
-    "main.js": "/janken/static/js/main.b51264d5.js",
+    "main.js": "/janken/static/js/main.ce0d1615.js",
     "static/js/787.14bc2f03.chunk.js": "/janken/static/js/787.14bc2f03.chunk.js",
     "static/media/par.PNG": "/janken/static/media/par.d73069afbe4354e4c1cf.PNG",
     "static/media/choki.PNG": "/janken/static/media/choki.7a40024c78ce8c8613b2.PNG",
     "static/media/goo.PNG": "/janken/static/media/goo.cf767a79227730b32465.PNG",
     "index.html": "/janken/index.html",
     "main.fc1caea6.css.map": "/janken/static/css/main.fc1caea6.css.map",
-    "main.b51264d5.js.map": "/janken/static/js/main.b51264d5.js.map",
+    "main.ce0d1615.js.map": "/janken/static/js/main.ce0d1615.js.map",
     "787.14bc2f03.chunk.js.map": "/janken/static/js/787.14bc2f03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc1caea6.css",
-    "static/js/main.b51264d5.js"
+    "static/js/main.ce0d1615.js"
   ]
 }
